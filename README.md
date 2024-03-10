@@ -1,17 +1,17 @@
+# Overview
+
+Our project is a _Dinosaur Application_ where we will be showcasing, you guessed it, [dinosaurs](https://www.google.com/search?client=opera-gx&q=dinosaurs&sourceid=opera&ie=UTF-8&oe=UTF-8)!
+We hope to educate people a little bit more about these majestic creatures by providing trivias (and stats for nerds!).
+
+This application was created for the Chingu Voyage 48. [Insert API here later]
+
+LIVE LINK: [Insert live link here later]
+
 # voyage-tasks
 
-Your project's `readme` is as important to success as your code. For 
-this reason you should put as much care into its creation and maintenance
-as you would any other component of the application.
-
-If you are unsure of what should go into the `readme` let this article,
-written by an experienced Chingu, be your starting point - 
 [Keys to a well written README](https://tinyurl.com/yk3wubft).
 
-And before we go there's "one more thing"! Once you decide what to include
-in your `readme` feel free to replace the text we've provided here.
-
-> Own it & Make it your Own!
+Will leave it here for you guys to read just in case.
 
 ## Team Documents
 
