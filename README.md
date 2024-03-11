@@ -36,3 +36,4 @@ coding!
 
 - Reyes, Ken Jervis G. — [Github](https://github.com/KingNoran)/[LinkedIn](https://www.linkedin.com/in/ken-reyes-20958227b/)
 - Macabulos, Patrick - [Github](https://github.com/psmacabulos)/[LinkedIn](https://www.linkedin.com/in/patrick-macabulos-developer/)
+- Capobianco, Paul - [Github] (https://github.com/paulcap510) / [LinkedIn] (https://www.linkedin.com/in/pcapobianco/)
