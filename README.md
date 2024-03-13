@@ -31,9 +31,10 @@ Meeting Agenda templates (located in the `/docs` directory in this repo):
 
 Everyone on your team should add their name along with a link to their GitHub
 & optionally their LinkedIn profiles below. Do this in Sprint #1 to validate
-your repo access and to practice PR'ing with your team *before* you start
+your repo access and to practice PR'ing with your team _before_ you start
 coding!
 
 - Reyes, Ken Jervis G. — [Github](https://github.com/KingNoran)/[LinkedIn](https://www.linkedin.com/in/ken-reyes-20958227b/)
 - Macabulos, Patrick - [Github](https://github.com/psmacabulos)/[LinkedIn](https://www.linkedin.com/in/patrick-macabulos-developer/)
 - Capobianco, Paul - [Github] (https://github.com/paulcap510) / [LinkedIn] (https://www.linkedin.com/in/pcapobianco/)
+- Bualat, Emerson - [Github] (https://github.com/emerson-bualat) / [LinkedIn] (https://www.linkedin.com/in/emerson-bualat-696844273/)
