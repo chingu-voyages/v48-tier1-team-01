@@ -1,10 +1,13 @@
 /* eslint-disable react/prop-types */
 
-const DinoList = ({ dinoList }) => {
+const DinoList = ({ dinoQuery }) => {
   return (
     <ul>
-      {dinoList.map(dino => (
-        <li key={dino.id}>{dino.name}</li>
+      {dinoQuery.map(dino => (
+        <li key={dino.id}>
+          <img src={dino.imageSrc} alt={dino.name} />
+          <p>{dino.name}</p>
+        </li>
       ))}
     </ul>
   )
