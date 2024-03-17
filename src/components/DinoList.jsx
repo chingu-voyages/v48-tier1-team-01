@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-const DinoList = ({ dinoQuery, dinoSearch }) => {
+const DinoList = ({ dinoQuery, dinoSearch, onSelectedDino }) => {
   return (
     <ul>
       {dinoQuery
@@ -12,7 +12,7 @@ const DinoList = ({ dinoQuery, dinoSearch }) => {
         .map(dino => (
           <li key={dino.id}>
             {/* <img src={dino.imageSrc} alt={dino.name} /> */}
-            <p>{dino.name}</p>
+            <button onClick={() => onSelectedDino(dino.id)}>{dino.name}</button>
           </li>
         ))}
     </ul>
