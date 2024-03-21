@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Footer = (props) => {
+const Card = (props) => {
   return (
     <>
         <div className='card'>
@@ -28,4 +28,4 @@ const Footer = (props) => {
   )
 }
 
-export default Footer
+export default Card

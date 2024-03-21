@@ -1,11 +1,11 @@
-import Footer from './components/Footer';
+import Card from './components/Card';
 import sampleImage from './img/sampleImage.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Footer sampleImage={sampleImage}/>
+      <Card sampleImage={sampleImage}/>
     </div>
   );
 }
