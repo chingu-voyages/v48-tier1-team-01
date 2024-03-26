@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Welcome to Dinasaur App</h1>
+      <h1>Welcome to Dinasaur App</h1>
       <SearchDino dinoSearch={dinoSearch} onDinoSearch={setDinoSearch} />
       {dinoId == 0 && (
         <DinoList
