@@ -14,8 +14,8 @@ function App() {
   }, [])
 
   return (
-    <main className='grid  grid-rows-auto justify-center w-full'>
-      <h1>Welcome to Dinasaur App</h1>
+    <main className='grid  grid-rows-auto  justify-center w-full gap-5 p-5'>
+      <h1 className='text-center text-3xl'>Welcome to Dinasaur App</h1>
       <SearchDino dinoSearch={dinoSearch} onDinoSearch={setDinoSearch} />
       {dinoId == 0 && (
         <DinoList
