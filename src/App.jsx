@@ -1,8 +1,18 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+
+
 import DinoList from "./components/DinoList";
 import SearchDino from "./components/SearchDino";
 import DinoDetails from "./components/DinoDetails";
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+import { FaGithub } from 'react-icons/fa';
+
+// images
+import dinoLogo from './assets/images/DinoLogo.png';
+import hamBurger from './assets/images/hamburger.png';
+import cross from './assets/images/cross.png';
 
 function App() {
   const [dinoQuery, setDinoQuery] = useState([]);
@@ -17,6 +27,7 @@ function App() {
 
   return (
     <>
+      <Nav dinoLogo={dinoLogo} hamBurger={hamBurger} cross={cross}/>
       <h1>Welcome to Dinasaur App</h1>
       <SearchDino dinoSearch={dinoSearch} onDinoSearch={setDinoSearch} />
       {dinoId == 0 && (
@@ -29,6 +40,7 @@ function App() {
       {dinoId != 0 && (
         <DinoDetails dino={dinoQuery[dinoId]} onBack={() => setDinoId(0)} />
       )}
+      <Footer icon={<FaGithub />} />
     </>
   );
 }
