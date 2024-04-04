@@ -5,20 +5,20 @@ We hope to educate people a little bit more about these majestic creatures by pr
 
 # Technologies Used
 
-HTML 5
-JavaScript
-CSS
-Nodejs
-Git and Github
-Vite
+<br>HTML 5
+<br>JavaScript
+<br>CSS
+<br>Nodejs
+<br>Git and Github
+<br>Vite
 
 # Dependencies
 
-React Logos (FontAwesome)
-React
-TailwindCSS
-Autoprefixer
-PostCSS
+<br>React Logos (FontAwesome)
+<br>React
+<br>TailwindCSS
+<br>Autoprefixer
+<br>PostCSS
 
 # Deployment
 
