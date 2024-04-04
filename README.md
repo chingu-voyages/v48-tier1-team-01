@@ -22,7 +22,7 @@ We hope to educate people a little bit more about these majestic creatures by pr
 
 # Deployment
 
-This application is not deployed yet.
+The application has been deployed and is available at https://chingu-voyages.github.io/v48-tier1-team-01/.
 
 # Build
 
