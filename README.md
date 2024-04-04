@@ -3,36 +3,36 @@
 Our project is a _Dinosaur Application_ where we will be showcasing, you guessed it, [dinosaurs](https://www.google.com/search?client=opera-gx&q=dinosaurs&sourceid=opera&ie=UTF-8&oe=UTF-8)!
 We hope to educate people a little bit more about these majestic creatures by providing trivias (and stats for nerds!).
 
-This application was created for the Chingu Voyage 48. [Insert API here later]
+# Technologies Used
 
-LIVE LINK: [Insert live link here later]
+HTML 5
+JavaScript
+CSS
+Nodejs
+Git and Github
+Vite
 
-# voyage-tasks
+# Dependencies
 
-[Keys to a well written README](https://tinyurl.com/yk3wubft).
+React Logos (FontAwesome)
+React
+TailwindCSS
+Autoprefixer
+PostCSS
 
-Will leave it here for you guys to read just in case.
+# Deployment
 
-## Team Documents
+This application is not deployed yet.
 
-You may find these helpful as you work together to organize your project.
+# Build
 
-- [Team Project Ideas](./docs/team_project_ideas.md)
-- [Team Decision Log](./docs/team_decision_log.md)
-
-Meeting Agenda templates (located in the `/docs` directory in this repo):
-
-- Meeting - Voyage Kickoff --> ./docs/meeting-voyage_kickoff.docx
-- Meeting - App Vision & Feature Planning --> ./docs/meeting-vision_and_feature_planning.docx
-- Meeting - Sprint Retrospective, Review, and Planning --> ./docs/meeting-sprint_retrospective_review_and_planning.docx
-- Meeting - Sprint Open Topic Session --> ./docs/meeting-sprint_open_topic_session.docx
+1. Clone the repository to your local environment.
+2. Navigate to the local repository via terminal or Explorer.
+3. Run <code>npm install</code> to install the dependencies.
+4. Run <code>npm run dev</code> to open a live server.
+5. View the application live at http://localhost:3000.
 
 ## Our Team
-
-Everyone on your team should add their name along with a link to their GitHub
-& optionally their LinkedIn profiles below. Do this in Sprint #1 to validate
-your repo access and to practice PR'ing with your team _before_ you start
-coding!
 
 - Reyes, Ken Jervis G. — [Github](https://github.com/KingNoran)/[LinkedIn](https://www.linkedin.com/in/ken-reyes-20958227b/)
 - Macabulos, Patrick - [Github](https://github.com/psmacabulos)/[LinkedIn](https://www.linkedin.com/in/patrick-macabulos-developer/)
