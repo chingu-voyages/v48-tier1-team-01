@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-      <main className='grid  grid-rows-auto  justify-center w-full gap-5 p-5'>
+      <main className='grid  grid-rows-auto  justify-center w-full gap-5 px-5'>
         <Nav dinoLogo={dinoLogo} hamBurger={hamBurger} cross={cross} />
         <h1 className='text-center text-3xl'>Welcome to Dinasaur App</h1>
 
