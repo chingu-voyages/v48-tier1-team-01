@@ -38,6 +38,11 @@ const Nav = (props) => {
               : null
             }
       </nav>
+      {
+        show ?
+        <div className="mt-24"></div>
+        : null
+      }
     </>
   );
 }
