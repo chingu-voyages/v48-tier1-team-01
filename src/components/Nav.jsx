@@ -5,7 +5,7 @@ const Nav = (props) => {
   const [show, setShow] = useState(false)
   return (
     <>
-      <nav className="max-sm:w-screen max-sm:p-0 flex w-full justify-center flex-col p-3 border-solid border-b-2 border-[rgba(0,0,0,0.1)]]">
+      <nav className="fixed top-0 left-0 max-sm:w-screen max-sm:p-0 w-full justify-center flex-col p-3 border-solid border-b-2 border-[rgba(0,0,0,0.1)]] bg-white">
           <div className="flex justify-between flex-wrap gap-4">
             <div className="flex">
               <img className="w-[2.4rem] self-end max-sm:w-[60px] max-sm:h-[60x]" src={props.dinoLogo}></img>
