@@ -12,13 +12,12 @@ const DinoList = ({ dinoQuery, dinoSearch, onSelectedDino }) => {
           )
           .map(dino => (
             <li
-              key={dino.id}
+              key={dino.name}
+              onClick={() => onSelectedDino(dino.id)}
               className='hover:scale-110 transition-all flex items-center justify-between flex-col flex-grow  border-solid border-slate-600  w-3/12 shadow-lg shadow-slate-950 p-4 gap-3'
             >
               <img src={dino.imageSrc} alt={dino.name} className='m-auto ' />
-              <button onClick={() => onSelectedDino(dino.id)} className='text-blue-800 text-xl'>
-                {dino.name}
-              </button>
+              <button className='text-blue-800 text-xl'>{dino.name}</button>
             </li>
           ))}
       </ul>
