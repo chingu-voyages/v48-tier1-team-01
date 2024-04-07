@@ -2,7 +2,7 @@
 const SearchDino = ({ dinoSearch, onDinoSearch }) => {
   return (
     <>
-      <h3 className='block text-sm font-medium leading-6 text-gray-900 text-center'>
+      <h3 className=' block text-sm font-medium leading-6 text-gray-900 text-center'>
         Search your favorite Dinosaur
       </h3>
       <form onSubmit={e => e.preventDefault()}>
