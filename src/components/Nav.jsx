@@ -26,8 +26,8 @@ const Nav = (props) => {
           </div>
             {
               show ?
-              <div className="h-24" >
-              <ul className="flex items-start gap-1 list-none m-0 flex-col">{[
+              <div className="h-24 sm:hidden">
+              <ul className="sm:hidden flex items-start gap-1 list-none m-0 flex-col px-4">{[
                 ['Search', '#'],
                 ['Dietchart', '#'],
               ].map(([title, url]) =>(
@@ -40,7 +40,7 @@ const Nav = (props) => {
       </nav>
       {
         show ?
-        <div className="mt-24"></div>
+        <div className="mt-24 sm:hidden"></div>
         : null
       }
     </>
