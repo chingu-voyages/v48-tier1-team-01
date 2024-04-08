@@ -27,6 +27,7 @@ function App() {
       .then((res) => setDinoQuery(res.data));
   }, []);
 
+
   return (
     <BrowserRouter>
       <main className="grid grid-rows-auto justify-center w-full gap-5 p-5">
@@ -64,5 +65,7 @@ function App() {
     </BrowserRouter>
   );
 }
+
+
 
 export default App;
