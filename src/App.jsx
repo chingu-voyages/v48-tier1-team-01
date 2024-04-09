@@ -44,7 +44,7 @@ function App() {
                   />
                 )}
                 {dinoId !== 0 && (
-                  <DinoDetails dino={dinoQuery[dinoId]} onBack={() => setDinoId(0)} />
+                  <DinoDetails dino={dinoQuery[dinoId - 1]} onBack={() => setDinoId(0)} />
                 )}
               </>
             }
