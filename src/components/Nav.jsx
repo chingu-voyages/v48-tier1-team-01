@@ -37,27 +37,31 @@ const Nav = props => {
               className='w-[2.4rem] h-auto cursor-pointer'
             />
           </div>
+
         </div>
 
         {/* Mobile Navigation Links */}
         {show && (
           <div className='sm:hidden'>
-            <ul className='flex flex-col items-start gap-1 list-none m-0 p-3'>
+            <ul className='sm:hidden flex items-start gap-1 list-none m-0 flex-col px-4>
               {[
                 ['Search', '/'],
                 ['Diet Chart', '/chart']
               ].map(([title, url]) => (
                 <li key={title}>
-                  <Link to={url} className='block hover:text-blue-500 no-underline text-[1.5rem]'>
+                  <Link to={url} className='hover:text-[blue] no-underline text-[1.5rem] m-0'>
                     {title}
                   </Link>
                 </li>
+
               ))}
             </ul>
           </div>
         )}
       </nav>
-      {show ? <div className='mt-24'></div> : null}
+
+      {show ? <div className='mt-24 sm:hidden'></div> : null}
+
     </>
   )
 }
