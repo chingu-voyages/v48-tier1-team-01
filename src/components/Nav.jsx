@@ -8,7 +8,7 @@ const Nav = props => {
     <>
       <nav className='sticky top-0 left-0 w-full bg-white z-10 shadow-md p-3 border-b border-gray-200'>
         <div className='max-w-6xl mx-auto flex justify-between items-center gap-4'>
-          <Link to='/' className='flex items-center gap-4 no-underline'>
+          <Link to='/v48-tier1-team-01/' className='flex items-center gap-4 no-underline'>
             <img className='w-[2.4rem] h-auto' src={props.dinoLogo} alt='Dino Logo' />
             <span className='text-[2.4rem] font-bold hover:text-blue-500'>chinguDino</span>
           </Link>
