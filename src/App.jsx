@@ -27,7 +27,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <main className='grid grid-rows-auto justify-center w-full gap-5 p-5'>
+      <main className='grid grid-rows-auto w-full gap-5 p-5'>
         <Nav dinoLogo={dinoLogo} hamBurger={hamBurger} cross={cross} />
         <h1 className='text-center text-3xl'>Welcome to Dinosaur App</h1>
         <Routes>
