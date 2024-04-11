@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 const DinoDetails = ({ dino, onBack }) => {
   return (
-    <div className="justify-self-center w-[50rem]">
-      <div className="flex flex-col border-solid border-[1px] rounded-[1rem]">
+    <div className="justify-self-center flex flex-col md:ml-[-20rem]">
+      <div className="flex flex-col border-solid border-[1px] rounded-[1rem] md:min-w-[175%]">
         <img className="justify-center self-center" src={dino.imageSrc} alt={dino.name} />
         <div className="flex flex-col justify-center px-2 border-solid border-t-[1px] bg-[rgba(0,0,255,0.02)]">
           <h4 className="text-[2rem] font-bold py-4">{dino.name}</h4>
