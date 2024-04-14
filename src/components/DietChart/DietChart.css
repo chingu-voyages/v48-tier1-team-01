@@ -13,7 +13,8 @@
 .barChart-container {
   width: 100%;
   max-width: 1000px;
-  height: 600px;
+  height: auto;
+  aspect-ratio: 2 / 1;
 }
 
 .pieCharts-container {
@@ -26,4 +27,15 @@
 .pieChart-container {
   width: 250px;
   height: 250px;
+}
+
+@media (max-width: 600px) {
+  .barChart-container {
+    aspect-ratio: 1;
+  }
+
+  .pieChart-container {
+    flex: 1 1 150px;
+    max-width: 150px;
+  }
 }
