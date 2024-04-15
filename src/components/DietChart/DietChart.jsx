@@ -1,4 +1,4 @@
-import './DietChart.css';
+// import './DietChart.css';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Bar, Pie } from 'react-chartjs-2';
@@ -133,16 +133,20 @@ const DietChart = () => {
   };
 
   return (
-    <div className="dietChart-container">
+    <div className="flex flex-col items-center w-full">
       <h2>Diet Chart</h2>
-      <div className="barChart-container">
+      <div className="w-full max-w-[1000px] h-auto aspect-[2/1] md:aspect-[1]">
+        {' '}
         <Bar data={chartData} options={chartOptions} />
       </div>
       <h3>Breakdown by Period</h3>
-      <div className="pieCharts-container">
-        {' '}
+      <div className="flex flex-wrap justify-center gap-5">
         {Object.entries(pieData).map(([period, data]) => (
-          <div key={period} className="pieChart-container">
+          <div
+            key={period}
+            className="w-[250px] h-[250px] md:flex-1 md:max-w-[150px]"
+          >
+            {' '}
             <h4>{period}</h4>
             <Pie data={data} options={pieOptions} />
           </div>
