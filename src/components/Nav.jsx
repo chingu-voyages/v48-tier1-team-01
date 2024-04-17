@@ -44,8 +44,8 @@ const Nav = props => {
           <div className='sm:hidden'>
             <ul className='flex flex-col items-start gap-1 list-none m-0 p-3'>
               {[
-                ['Search', '/'],
-                ['Diet Chart', '/chart']
+                ['Search', '/v48-tier1-team-01/'],
+                ['Diet Chart', '/v48-tier1-team-01/chart']]
               ].map(([title, url]) => (
                 <li key={title}>
                   <Link to={url} className='block hover:text-blue-500 no-underline text-[1.5rem]'>
